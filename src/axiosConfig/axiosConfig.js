@@ -4,7 +4,7 @@ import Cookie from "universal-cookie";
 import { getCookie } from './cookieFunc';
 
 const axiosInstance = axios.create({
-  baseURL: 'http://localhost:3000', 
+  baseURL: 'https://coupon-claim-backend-uynv.onrender.com', 
   withCredentials: true, 
 });
 
